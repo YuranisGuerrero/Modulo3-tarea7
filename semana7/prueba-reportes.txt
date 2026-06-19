@@ -1,0 +1,4 @@
+Cuando se envía un reporte mediante la ruta POST /reportes, la información queda almacenada temporalmente
+en el arreglo de reportes. Después, al consultar la ruta GET /reportes, el servidor muestra la lista de los 
+reportes registrados hasta ese momento. Esto permite verificar que los datos fueron guardados correctamente 
+y facilita la consulta de las incidencias registradas por la comunidad.
